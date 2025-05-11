@@ -4,7 +4,7 @@ This project is a Spring Boot application designed to manage batteries in a virt
 
 ## API Endpoints
 ### Save Battery Data
-- **POST** `/api/batteries`
+- **POST** `/vpp/api/batteries`
   - Request Body: JSON array of battery data
   - Example:
     ```json
@@ -24,7 +24,7 @@ This project is a Spring Boot application designed to manage batteries in a virt
   - Response: 201 Created
 
 ### Get Battery Statistics
-- **GET** `/api/batteries/statistics`
+- **GET** `/vpp/api/batteries/statistics`
   - Query Parameters:
     - `startPostcode` and `endPostcode`: Range of postcodes (inclusive).
     - `minCapacity`: Minimum capacity
