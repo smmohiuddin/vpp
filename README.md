@@ -9,8 +9,8 @@ This project is a Spring Boot application designed to manage batteries in a virt
 - Includes test containers for integration testing.
 
 ## Prerequisites
-- Java 21
-- Maven 3.8+
+- Java 17
+- Maven 3
 - MySQL 8.x
 - Docker (for running Testcontainers)
 
