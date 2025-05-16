@@ -24,7 +24,7 @@ This project is a Spring Boot application designed to manage batteries in a virt
   - Response: 201 Created
 
 ### Get Battery Statistics
-- **GET** `/vpp/api/batteries/statistics`
+- **GET** `/vpp/api/batteries`
   - Query Parameters:
     - `startPostcode` and `endPostcode`: Range of postcodes (inclusive).
     - `minCapacity`: Minimum capacity
